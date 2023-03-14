@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(163, 174, 185);
+}
+header{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    border: 1px  solid black;
+    margin: 350px 560px;
+    gap: 40px;
+    padding: 20px;
+    background-color: white;
+}
+#decrement{
+    padding: 15px 20px;
+}
+#increment{
+    padding: 15px 20px;
+}
+#reset{
+    padding: 15px 20px;
+}
+.count{
+    display: flex;
+    gap: 60px;
+}
